@@ -27,7 +27,7 @@
 
         public static void Empty()
         {
-            Write("", null);
+            Write("\n", null);
         }
 
         private static void Write(string message, LogTypes? logType)
