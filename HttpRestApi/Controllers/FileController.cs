@@ -22,7 +22,7 @@ namespace HttpRestApi.Controllers
     /// - This controller does not check the size of the file. If the file is too 
     ///   large, an error will be thrown.
     /// - This controller is able to handle ZIP files.
-    /// - Accepted ContentType is "multipart/form-data"
+    /// - Accepted ContentType is "multipart/form-data" for file/single and file/multiple
     /// - CORS might be a problem
     /// </summary>
     [ApiController]
